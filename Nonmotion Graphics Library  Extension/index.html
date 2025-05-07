@@ -1,0 +1,357 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/styles.css"/>
+<link rel="stylesheet" type="text/css" href="css/spectrum-darkest.css"/>
+	<title>nonmotion</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/jquery-3.1.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="js/libs/toastify.css">
+<script src="js/libs/toastify.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<script>
+
+</script>
+</head>
+<body   scroll="no" class="spectrum--darkest">
+
+
+
+<div class="banner">
+<div class="banner_container">
+   
+<div class="add_res_auto">
+
+ <video loop class="res" style="display: none;" autoplay ="true" src=""></video>
+		   
+<div class="cover">
+
+ </div>
+</div>
+	   
+	</img>
+
+	</div>
+</div>
+
+
+<div class="Element_contailer">
+
+
+<div class="controller">
+
+<div class="item">
+
+<div class="dr_list">
+	
+<div style="display:flex;justify-content: center; align-items: center;" class="txt_duration">
+	<span style="font-size: 13px;" >Duration</span>
+</div>
+
+<label onclick="radio_item_1(this)" style="transform: scale(0.75);" id="50" class="custom-radio-btn">
+  <span class="label"></span>
+  <input type="radio" name="sample" checked>
+  <span class="checkmark"></span>
+</label>
+
+<label onclick="radio_item_2(this)" style="transform: scale(0.75);" id="75" class="custom-radio-btn">
+  <span class="label"></span>
+  <input type="radio" name="sample">
+  <span class="checkmark"></span>
+</label>
+
+<label onclick="radio_item_3(this)" style="transform: scale(0.75);" id="100" class="custom-radio-btn">
+  <span class="label"></span>
+  <input checked type="radio" name="sample">
+  <span class="checkmark"></span>
+</label>
+
+<label onclick="radio_item_4(this)" style="transform: scale(0.75);" id="150" class="custom-radio-btn">
+  <span class="label"></span>
+  <input type="radio" name="sample">
+  <span class="checkmark"></span>
+</label>
+
+<label onclick="radio_item_5(this)" style="transform: scale(0.75);" id="200" class="custom-radio-btn">
+  <span class="label"></span>
+  <input type="radio" name="sample">
+  <span class="checkmark"></span>
+</label>
+
+<div style="position:relative; left:10px; font-size:13px;" id="radio-text"></div>
+
+</div>
+
+<div style="position:relative; top: 5px; font-size: 12px; color: #5173a9;">
+	<p class="none_m"></p>
+</div>
+
+
+<div class="vl_list">
+	
+<div class="star">
+
+<div class="icon_search">
+ 
+<i class="fa-solid fa-magnifying-glass fa-beat" style="color: #a0a0a0;"></i>
+
+</div>
+</div>
+
+<div class="star">
+	<input class="volume_nonmotion" type="range" name="">
+	<img style="position: relative; left: -3px;" class="sound" onclick="vlsound()" width="12px" src="icon_element/volume_on.png">
+</div>
+
+
+
+
+<div class="internet">
+
+    <div class="message_box">
+            
+    </div>
+    
+	<img onclick="internet()" width="12px" src="icon_element/internet.png">
+</div>
+
+
+
+</div>
+</div>	
+</div>
+</div>
+
+
+
+ <div class="bar">
+<div class="container_bar">
+
+  <div class="search_input">
+    <input type="text"  class ="searchInput"  placeholder="...">
+    <p class="no_search"></p>
+  </div>
+
+  <div class="close_icon">
+    <i onclick="close_input()" class="fa fa-window-close" aria-hidden="true"></i>
+
+  </div>
+
+</div>
+
+
+  
+
+
+
+
+ </div>
+
+
+
+
+<div class="container_desgin_motion">
+
+
+
+<div style="overflow:scroll; height:400px; overflow-x: hidden;" class="card_container">
+	
+<div style="background-color: #151515;" class="add_element">
+
+<div class="card_item">
+
+
+</div>
+
+</div>
+
+
+</div>
+
+
+	<center>
+
+<div  style="overflow:scroll; height:400px; overflow-x: hidden;" class="my_box">
+
+
+
+<div onclick="title_media()"onmousemove="title_random()" id="item_element"  class="select_text   soundFx"><span>Title</span></div>
+
+<div onclick="typogr_media()"onmousemove="typograpy_random()" id="item_element"  class="select_text out_random  soundFx"><span>Typography</span></div>
+
+<div  onclick="Callouts()"onmousemove="callouts_random()" id="item_element" class="select_text  soundFx"><span>Callouts</span></div>
+
+<div onclick="Lower_Thirds()"onmousemove="lower_random()" id="item_element"  class="select_text  soundFx"><span>Lower Thirds</span></div>
+
+<div onclick="shape_element()"onmousemove="shape_random()" id="item_element" class="select_text soundFx"><span>Shape Elements</span></div>
+
+<div onclick="background_element()"onmousemove="background_random()" id="item_element" class="select_text  soundFx"><span>Backgrounds</span></div>
+
+<div  onclick="sosial_media()"  onmousemove="social_random_random()" id="item_element"  class="select_text  soundFx"><span>Social Media</span></div>
+
+<div  onclick="logo_Reveals()" onmousemove="logo_reveals_random()" id="item_element"  class="select_text  soundFx"><span>Logo Reveals</span></div>
+
+<div onclick="transitions()"  onmousemove="transitions_random()" id="item_element" class="select_text  soundFx"><span>Transitions</span></div>
+
+<div onclick="infographics_media()" onmousemove="infographic_random()" id="item_element" class="select_text  soundFx"><span>Infographics</span></div>
+
+<div  onclick="devices()" onmousemove="devices_random()" id="item_element" class="select_text  soundFx"><span>Devices</span></div>
+
+
+
+<div class="finish_index"></div>
+
+
+</div>
+
+
+
+</center>
+
+
+	
+</div>
+	
+
+
+
+
+<script>
+
+
+ $('input.form-control.motion_pack').search(function(){
+
+      });
+
+
+function getOS() {
+ 		var userAgent = window.navigator.userAgent,
+ 		platform = window.navigator.platform,
+ 		macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+ 		windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+ 		os = null;
+  
+
+ 		if(macosPlatforms.indexOf(platform) != -1) {
+ 			os = "MAC";
+ 		} else if(windowsPlatforms.indexOf(platform) != -1) {
+ 			os = "WIN";
+ 		}
+ 		return os;
+ 	}
+	
+	</script>	
+	<script src="js/libs/CSInterface.js"></script>
+	<script src="js/main.js"></script>
+		<script src="js/jsx_bin.js"></script>
+	 <script src="js/database.js"></script>
+     <script src="js/new_setting.js"></script>
+</body>
+</html>
+
+<script>
+function showRadioText(label) {
+  const labelText = label.getAttribute("id");
+  const radioDiv = document.getElementById("radio-text");
+  radioDiv.textContent = labelText;
+  radioDiv.style.display = "block";
+}
+
+function hideRadioText(label) {
+  const radioDiv = document.getElementById("radio-text");
+  radioDiv.style.display = "none";
+}
+
+function radio_item_1(label) {
+  showRadioText(label);
+
+}
+
+function radio_item_2(label) {
+  showRadioText(label);
+
+}
+
+function radio_item_3(label) {
+  showRadioText(label);
+ 
+}
+
+function radio_item_4(label) {
+  showRadioText(label);
+
+}
+
+function radio_item_5(label) {
+  showRadioText(label);
+
+}
+
+const labels = document.querySelectorAll(".custom-radio-btn");
+labels.forEach(label => {
+  label.addEventListener("mouseover", () => {
+    showRadioText(label);
+  });
+  label.addEventListener("mouseout", () => {
+    hideRadioText(label);
+  });
+});
+</script>
+
+
+
+
+
+<script>
+  
+
+const sound_fx_signal = new Audio("sound/Button Hover.mp3");
+
+const sound_fx = document.querySelectorAll(".soundFx");
+
+for (var i = 0; i < sound_fx.length; i++) {
+  sound_fx[i].onmouseenter = function () {
+    sound_fx_signal.currentTime = 0;
+    sound_fx_signal.play();
+  }
+}
+
+
+
+</script>
+
+
+
+
+
+<script>
+  
+///bar  nonmotion
+const search_icon = document.querySelector(".icon_search");
+const list = document.querySelector(".bar");
+
+let menu_list_controller = false;
+
+
+search_icon.onclick =()=>{
+
+if (menu_list_controller==false) {
+
+  menu_list_controller = true;
+  list.style.display = 'block';
+}
+
+else{
+menu_list_controller = false;
+  list.style.display = 'none';
+
+}
+
+
+
+}
+
+
+</script>
+

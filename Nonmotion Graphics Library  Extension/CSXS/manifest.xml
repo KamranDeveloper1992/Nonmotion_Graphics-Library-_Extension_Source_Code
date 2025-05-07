@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest  Version="5.0" ExtensionBundleId="NonmotionLibary" ExtensionBundleVersion="1.0" ExtensionBundleName="panel">
+  <ExtensionList>
+    <Extension Id="KLR" Version="1.0"/>
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <Host Name="AEFT" Version="[13.0,99.9]" />
+    </HostList>
+    <LocaleList>
+      <Locale Code="All"/>
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="5.0" />
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="KLR">
+      <DispatchInfo Host="AEFT">
+        <Resources>
+          <CEFCommandLine>
+            <Parameter>--user-agent=After Effects</Parameter>
+          </CEFCommandLine>
+        </Resources>
+      </DispatchInfo>
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./index.html</MainPath>
+          <ScriptPath>./jsx/extension.jsx</ScriptPath>
+        </Resources>
+        <Lifecycle>
+          <AutoVisible>true</AutoVisible>
+        </Lifecycle>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>nonmotion graphics library</Menu>
+          <Geometry>
+            <Size>
+              <Height>590</Height>
+              <Width>215</Width>
+            </Size>
+            <MaxSize>
+              <Height>3000</Height>
+              <Width>215</Width>
+            </MaxSize>
+            <MinSize>
+              <Height>482</Height>
+              <Width>215</Width>
+            </MinSize>
+          </Geometry>
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>
