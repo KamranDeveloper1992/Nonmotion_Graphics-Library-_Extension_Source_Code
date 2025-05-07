@@ -12,4 +12,5 @@ This sample code was developed by Kamran Karimov on August 30, 2023. You can use
 Would you like this formatted as a disclaimer or added to documentation?
 
 
-This is our sales link, you can click here and buy our product.
+This is our sales link, you can click here and buy our product.> https://videohive.net/item/nonmotion-graphics-library-extension-for-after-effects/47668722?s_rank=25
+
